@@ -1,9 +1,8 @@
 {
   "name": "liferay-react-runtime-localization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for localization Liferay React Portlets in Runtime",
   "main": "build/index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",

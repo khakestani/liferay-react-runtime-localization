@@ -1,7 +1,8 @@
 import Language from "./Language";
-
-export {isLanguageLoaded as isLanguageLoaded} from "./LanguageProvider";
-export {default as LanguageProvider} from "./LanguageProvider";
-export {default as getLanguage} from "./getLanguage";
+import _LanguageProvider, {isLanguageLoaded as _isLanguageLoaded} from "./LanguageProvider";
+import _getLanguage from "./getLanguage";
 
 export default Language;
+export const LanguageProvider = _LanguageProvider;
+export const isLanguageLoaded = _isLanguageLoaded;
+export const getLanguage = _getLanguage;
