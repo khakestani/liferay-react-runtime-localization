@@ -9,12 +9,12 @@ and you can't use it.
 By NPM
 
 ```shell
-$ npm install @khakestani/liferay-react-runtime-localization
+$ npm install liferay-react-runtime-localization
 ```
 
 Or by Yarn
 ```shell
-$ yarn add @khakestani/liferay-react-runtime-localization
+$ yarn add liferay-react-runtime-localization
 ```
 
 <h2>Using</h2>
