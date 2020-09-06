@@ -34,7 +34,7 @@ export const isLanguageLoaded = () => {
 
 
 
-LanguageProvider.prototype = {
+LanguageProvider.propTypes = {
     languageId: PropTypes.string.isRequired,
     portalUrl: PropTypes.string.isRequired,
     contextPath: PropTypes.string.isRequired,

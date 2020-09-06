@@ -18,7 +18,7 @@ const Language = ({langKey}) => {
         return <Fragment>{getLanguage(langKey)}</Fragment>
 }
 
-Language.prototype = {
+Language.propTypes = {
     langKey : PropTypes.string.isRequired
 }
 

@@ -25,7 +25,7 @@ const LanguageInit = ({languageId, portalUrl, contextPath, directory, dispatch})
 
 }
 
-LanguageInit.prototype = {
+LanguageInit.propTypes = {
     languageId: PropTypes.string.isRequired,
     portalUrl: PropTypes.string.isRequired,
     contextPath: PropTypes.string.isRequired,
